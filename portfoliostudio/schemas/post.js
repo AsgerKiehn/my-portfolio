@@ -32,6 +32,10 @@ export default {
       },
     },
     {
+      name: 'video',
+      type: 'mux.video'
+    },
+    {
       name: 'categories',
       title: 'Categories',
       type: 'array',

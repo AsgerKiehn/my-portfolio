@@ -1,13 +1,16 @@
 import React from 'react'
-import image from "../faux-monstera-leaf.jpg"
+import Intro from './Intro'
+import Examples from "./Examples"
+import Contact from './Contact'
+import SocialGallery from './SocialGallery'
 
 export default function Home() {
     return (
         <main>
-            <img src={image} alt="Monstera Leaves" className="absolute object-cover w-full h-full"/>
-            <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-                <h1 className="text-2xl text-green-100 font-bold cursive leading-none lg:leading-snug home-name">Aloha. I'm Asger</h1>
-            </section>
+            <Intro/>
+            <Examples/>
+            <SocialGallery/>
+            <Contact/>
         </main>
     )
 }
