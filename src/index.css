@@ -379,24 +379,9 @@ body {
   display: block;
   color: #ffffff;
   padding: 20px;
-  position: relative;
 }
 
-.about-img {
-  position: absolute;
-  bottom: 0px;
-  right: 0;
-  max-height: 260px;
-}
 
-.contact-image {
-  width: 200px;
-  height: 100%;
-  background-color: #4B3D93;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
 
 .contact-container p {
   font-size: 14px;
