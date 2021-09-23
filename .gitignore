@@ -3,7 +3,7 @@
 # dependencies
 !node_modules
 node_modules/*
-!node_modules/react-image-gallery
+!node_modules/react-image-gallery/styles/css/image-gallery.css
 
 portfoliostudio/node_modules
 
