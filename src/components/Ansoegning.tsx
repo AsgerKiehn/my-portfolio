@@ -51,13 +51,6 @@ const Ansoegning: FunctionComponent = () => {
         margin: "0 auto"
     }
 
-    const competenceContainerSmallStyles: CSSProperties = {
-        maxWidth: "300px",
-        maxHeight: "400px",
-        padding: "20px",
-        display: "block",
-        margin: "0 auto"
-    }
 
     const imageStyles: CSSProperties = {
         width: "100px",
@@ -89,12 +82,12 @@ const Ansoegning: FunctionComponent = () => {
                     </div>
                     <Media greaterThanOrEqual="md">
                         <div style={competenceContainerStyles}>
-                            <img style={imageStyles} src="/react.png"/>
-                            <img style={imageStyles} src="/javascript.png"/>
-                            <img style={imageStyles} src="/typescript.png"/>
-                            <img style={imageStyles} src="/html5.png"/>
-                            <img style={imageStyles} src="/css.jpg"/>
-                            <img style={imageStyles} src="/adobe.png"/>
+                            <img style={imageStyles} src="/react.png" alt="a"/>
+                            <img style={imageStyles} src="/javascript.png" alt="a"/>
+                            <img style={imageStyles} src="/typescript.png" alt="a"/>
+                            <img style={imageStyles} src="/html5.png" alt="a"/>
+                            <img style={imageStyles} src="/css.jpg" alt="a"/>
+                            <img style={imageStyles} src="/adobe.png" alt="a"/>
                         </div>
                     </Media>
 

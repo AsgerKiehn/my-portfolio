@@ -72,7 +72,7 @@ const Introduction: FunctionComponent = () => {
                         <Media greaterThanOrEqual="md">
                             <div style={boxContainerStyles}>
                                 <div style={videoPlaceholder}>
-                                    <img src="/asger.PNG" style={{width: "500px", height: "380px", objectFit: "cover", borderRadius: "6px"}}/>
+                                    <img src="/asger.PNG" alt="a" style={{width: "500px", height: "380px", objectFit: "cover", borderRadius: "6px"}}/>
                                 </div>
                                 <div style={textBoxContainer}>
                                     <h2 style={titleHeadingTextBoxStyle}>Om mig</h2>
@@ -83,7 +83,7 @@ const Introduction: FunctionComponent = () => {
                         </Media>
                         <Media lessThan="md">
                             <div style={boxContainerSmallStyles}>
-                                <img src="/asger.PNG" style={{width: "400px", height: "380px", objectFit: "cover", borderRadius: "6px"}}/>
+                                <img src="/asger.PNG" alt="a" style={{width: "400px", height: "380px", objectFit: "cover", borderRadius: "6px"}}/>
                                 <div style={textBoxContainer}>
                                     <h2 style={titleHeadingTextBoxStyle}>Om mig</h2>
                                     <p>Mit navn er Asger Kiehn. Jeg er en ung mand på 23 år. Da jeg lige er flyttet tilbage til Odense, står jeg og mangler en ny udfordring. Jeg søger et arbejde hvor jeg kan fortsætte min udvikling, ved at skubbe til mine grænser og hvor jeg kan suge ny viden til mig. </p>
