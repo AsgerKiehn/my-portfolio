@@ -66,7 +66,7 @@ const Drawer: FunctionComponent<DrawerProps> = ({children, title}) => {
         <div style={containerStyles}>
             <button type="button" onClick={handleCollapsable} style={buttonStyles}>
                 <span style={titleStyles}>{title}</span>
-                {isOpen ?  <img src="/chevron-right-solid.svg" style={collapsableIconRightStyles}/> : <img src="/chevron-down-solid.svg" style={collapsableIconDownStyles}/>}
+                {isOpen ?  <img src="/chevron-right-solid.svg" alt="a" style={collapsableIconRightStyles}/> : <img alt="a" src="/chevron-down-solid.svg" style={collapsableIconDownStyles}/>}
             </button>
 
             <div>
