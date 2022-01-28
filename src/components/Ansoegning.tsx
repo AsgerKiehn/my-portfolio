@@ -73,7 +73,7 @@ const Ansoegning: FunctionComponent = () => {
                         </div>
                         <div style={textBoxContainerStyles}>
                             <h2 style={titleUnderHeadingStyles}>Kompetencer</h2>
-                            <p style={textBoxStyles}> Det ovenstående arbejde er hovedsageligt udført i JavaScript, React, HTML5, CSS og TypeScript. Andre teknologier såsom PostgreSQL og GraphQL er endvidere blevet anvendt, men her har jeg endnu ikke været inde over i et omfattende udstræk. Det vil sige, at det primært er frontend teknologier jeg har haft med at gøre.</p>
+                            <p style={textBoxStyles}> Det ovenstående arbejde er hovedsageligt udført i JavaScript, React, Node, HTML5, CSS og TypeScript. Andre teknologier såsom PostgreSQL og GraphQL er endvidere blevet anvendt, men her har jeg endnu ikke været inde over i et omfattende udstræk. Det vil sige, at det primært er frontend teknologier jeg har haft med at gøre.</p>
                         </div>
                         <div style={textBoxContainerStyles}>
                             <h2 style={titleUnderHeadingStyles}>Future</h2>
@@ -87,6 +87,7 @@ const Ansoegning: FunctionComponent = () => {
                             <img style={imageStyles} src="/typescript.png" alt="a"/>
                             <img style={imageStyles} src="/html5.png" alt="a"/>
                             <img style={imageStyles} src="/css.jpg" alt="a"/>
+                            <img style={imageStyles} src="/node.png" alt="a"/>
                             <img style={imageStyles} src="/adobe.png" alt="a"/>
                         </div>
                     </Media>
